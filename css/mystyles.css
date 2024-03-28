@@ -7,4 +7,9 @@ body, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, .subheading  {
 :root {
     --bs-primary-rgb: 25, 25, 112;
     --bs-link-color: 25, 25, 112;
+    --bs-link-hover-color: rgb(25, 25, 112);
+}
+
+.social-icons .social-icon:hover {
+    background-color: rgb(25, 25, 112);
 }
